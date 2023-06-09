@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>AgriSuper</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fevicon -->
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <!-- Tweaks for older IEs-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!-- owl stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+        .dropdown-item.active,
+        .dropdown-item:hover,
+        .dropdown-item:active {
+            color: #fff;
+            text-decoration: none;
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<!-- body -->
+
+<body class="main-layout ">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+    <!-- end loader -->
+     <!-- header -->
+     <header>
+        <!-- header inner -->
+        <div class="header">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col logo_section">
+                        <div class="full">
+                            <div class="center-desk">
+                                <div class="logo">
+                                    <a href="index.html"><img src="images/logo.png" alt="#"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                        <div class="location_icon_bottum_tt">
+                            <ul>
+                                <li><img src="icon/loc1.png" />Location</li>
+                                <li><img src="icon/email1.png" />demo@gmail.com</li>
+
+                                <li><img src="icon/call1.png" />(+71)9876543109</li>
+                                <li><img src="icon/user .png" />user Login</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 location_icon_bottum">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="menu-area">
+                                    <div class="limit-box">
+                                        <nav class="main-menu">
+                                            <ul class="menu-area-main">
+                                                <li class="active"> <a href="index.html">Home</a> </li>
+                                                <li> <a href="agrisuper.html">Agri Super</a> </li>
+                                                <li><a href="#product">Crop Nutrients with ioT
+                                                </a></li>
+                                                
+
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="crops.html" id="navbarDropdown"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Crops
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                                        style="background-color: black; color: white;">
+                                                        <a class="dropdown-item" href="#">Cereals</a>
+                                                        <a class="dropdown-item" href="#">Pulses</a>
+                                                        <a class="dropdown-item" href="vegetable.html">Vegetables</a>
+                                                        <a class="dropdown-item" href="#">Horticulture</a>
+                                                        
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">All Crops</a>
+                                                    </div>
+                                                </li>
+                                               <!-- <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Micro Irrigation
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                                        style="background-color: black; color: white;">
+                                                        <a class="dropdown-item" href="#">Available Nutrient</a>
+                                                        <a class="dropdown-item" href="#">Status of Your Soil</a>
+                                                        <a class="dropdown-item" href="#">Crop</a>
+                                                        <a class="dropdown-item" href="#">Crop Fertilizer Req.</a>
+                                                        <a class="dropdown-item" href="#">Fertilizer Calculator</a>
+                                                    </div>
+                                                </li>-->
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+                                                        role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                        aria-expanded="false">
+                                                        Micro Irrigation
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                                        style="background-color: black; color: white;">
+                                                        <a class="dropdown-item" href="dripirrigation.html">Drip Irrigation Subsidy</a>
+                                                        
+                                                        <a class="dropdown-item" href="#">Sprinklr Irrigation</a>
+                                                        
+                                                    </div>
+                                                </li>
+                                                <li> <a href="#about">Blogs</a> </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end header inner -->
+    </header>
+    <!-- end header -->
+    <section class="main-heading my-2 Head_sec">
+        <div class="text-center ">
+            <h1 class="display-5 about_H">
+
+                Less pH soil suitable crops
+
+            </h1>
+            <hr class="w-25 mx-auto" />
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-12 col-xxl-6 ">
+                    <div class="inner">
+                        <figure>
+                            <img src="images/Img8.png" alt="img" class="img-fluid aboutUs_img">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="col-lg-7 col-md-6 col-12 col-xxl-6">
+                    <p class="about_para1" style=" padding-top: 5%;
+                    margin-left: -15%;">Crops that are sensitive to pH levels in the soil may not thrive or may 
+                        even fail to germinate and grow if the pH is not within their optimal range. Some crops, such as blueberries and potatoes, prefer acidic soils with a pH of around 5.0 to 5.5, while others, such as sweet potatoes and tomatoes, prefer neutral to slightly alkaline soils with a pH of around 6.0 to 7.0.
+                        
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+
+                <h5 class="crop_sec"><u>Crops that are suitable for acidic soils include</u></h5>
+            </div>
+
+
+        </div>
+
+
+
+
+        <!-- about -->
+        <section>
+            <section class="bg2">
+                <div class="container ">
+                    <div class="row pt-4">
+        
+                        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                            <figure>
+                                <img class="crop_img" src="images/Blueberries.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                            <h1 class="crop_head">Blueberries</h1>
+        
+                            <p class="crop_para1">
+                                Blueberries are highly sensitive to pH levels, and they require acidic soils with a pH
+                                between 4.5 and 5.5. If the soil is too alkaline, the blueberries will not be able to
+                                absorb the necessary nutrients, and they will not grow or produce well.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+                <div class="container ">
+                    <div class="row pt-4">
+        
+                        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                            <figure>
+                                <img class="crop_img" src="images/potato.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                            <h1 class="crop_head">Potatoes</h1>
+        
+                            <p class="crop_para1">
+                                Potatoes also prefer acidic soils, with a pH between 4.5 and 5.5. Alkaline soils can
+                                lead to nutrient deficiencies, poor growth, and poor yields.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+                <div class="container ">
+                    <div class="row pt-4">
+        
+                        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                            <figure>
+                                <img class="crop_img" src="images/rasberry.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                            <h1 class="crop_head">raspberries</h1>
+        
+                            <p class="crop_para1">
+                                Like blueberries, raspberries require acidic soils with a pH between 4.5 and 5.5. They
+                                will not thrive in alkaline soils.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+                <div class="container ">
+                    <div class="row pt-4">
+        
+                        <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                            <figure>
+                                <img class="crop_img" src="images/straw.png" alt="">
+                            </figure>
+                        </div>
+                        <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                            <h1 class="crop_head"> Strawberries </h1>
+        
+                            <p class="crop_para1">
+                                Strawberries also require acidic soils with a pH between 4.5 and 5.5. They will not
+                                thrive in alkaline soils.</p>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        </section>
+      
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+    
+                    <h5 class="crop_sec"><u>Crops that are less suitable for acidic soils include</u></h5>
+                </div>
+    
+    
+            </div>
+    
+    
+    
+    
+            <!-- about -->
+            <section>
+                <section class="bg2">
+                    <div class="container ">
+                        <div class="row pt-4">
+            
+                            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                                <figure>
+                                    <img class="crop_img" src="images/sweet potatoes.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                                <h1 class="crop_head"> Sweet potatoes .</h1>
+            
+                                <p class="crop_para1">
+                                    Sweet potatoes prefer neutral to slightly alkaline soils with a pH between 6.0 and 7.0.
+                                They will not thrive in acidic soils.</p>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                    <div class="container ">
+                        <div class="row pt-4">
+            
+                            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                                <figure>
+                                    <img class="crop_img" src="images/tomatoes.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                                <h1 class="crop_head">Tomatoes</h1>
+            
+                                <p class="crop_para1">
+                                    Tomatoes prefer neutral to slightly alkaline soils with a pH between 6.0 and 7.0. They
+                                will not thrive in acidic soils.</p>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                    <div class="container ">
+                        <div class="row pt-4">
+            
+                            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                                <figure>
+                                    <img class="crop_img" src="images/peppers.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                                <h1 class="crop_head">peppers</h1>
+            
+                                <p class="crop_para1">
+                                    Peppers prefer neutral to slightly alkaline soils with a pH between 6.0 and 7.0. They
+                                    will not thrive in acidic soils</p>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+                    <div class="container ">
+                        <div class="row pt-4">
+            
+                            <div class="col-xl-5 col-lg-6 col-md-6 col-sm-2">
+                                <figure>
+                                    <img class="crop_img" src="images/Egg.png" alt="">
+                                </figure>
+                            </div>
+                            <div class="col-xl-7 col-lg-6 col-md-6 col-sm-2">
+                                <h1 class="crop_head"> Eggplants </h1>
+            
+                                <p class="crop_para1">
+                                    Eggplants also prefer neutral to slightly alkaline soils with a pH between 6.0 and 7.0.
+                                They will not thrive in acidic soils.</p>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+            </section>
+
+
+       
+
+        <div class="col-lg-12">
+            <p class="crop_para2">
+                It's important to note that the ideal pH range for a crop can vary depending on the variety and the specific growing conditions. Additionally, many crops can tolerate a range of pH levels, but may not perform as well outside of their optimal range. Therefore, it's important to test the pH of the soil before planting and make adjustments as necessary.    
+    
+    
+            </p>
+        </div>
+
+        <!-- footer -->
+        <!--  footer -->
+        <footr>
+            <div class="footer top_layer ">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="address">
+                                <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
+                                <p>As we all know that if there is a lack of nutrients in the soil then the plant can
+                                    never
+                                    be healthy
+                                    resulting in reduction in yield & increase in cost. Agri Super App will work to
+                                    reduce
+                                    this problem. </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="address">
+                                <h3>Quick links</h3>
+                                <ul class="Links_footer">
+                                    <li><img src="icon/3.png" alt="#" /> <a href="#"> Join Us</a> </li>
+                                    <li><img src="icon/3.png" alt="#" /> <a href="#">About Us</a> </li>
+                                    <li><img src="icon/3.png" alt="#" /> <a href="#">Contact Us</a> </li>
+                                    <li><img src="icon/3.png" alt="#" /> <a href="#">Terms of Use</a> </li>
+                                    <li><img src="icon/3.png" alt="#" /> <a href="#">Disclaimer</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="address">
+                                <h3>Subcribe email</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+                                <input class="form-control" placeholder="Your Email" type="type" name="Your Email">
+                                <button class="submit-btn">Submit</button>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                            <div class="address">
+                                <h3>Contact Us</h3>
+
+                                <ul class="loca">
+                                    <li>
+                                        <a href="#"><img src="icon/loc.png" alt="#" /></a>London 145
+                                        <br>United Kingdom
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div class="container">
+                    <p>© 2023 All Rights Reserved. Design By<a href="#"> creativeBit</a></p>
+
+                </div>
+            </div>
+        </footr>
+
+        <!-- end footer -->
+        <!-- Javascript files-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/plugin.js"></script>
+        <!-- sidebar -->
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/custom.js"></script>
+        <!-- javascript -->
+        <script src="js/owl.carousel.js"></script>
+        <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(".fancybox").fancybox({
+                    openEffect: "none",
+                    closeEffect: "none"
+                });
+
+                $(".zoom").hover(function () {
+
+                    $(this).addClass('transition');
+                }, function () {
+
+                    $(this).removeClass('transition');
+                });
+            });
+        </script>
+        <script>
+            // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+            // Australia.
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 11,
+                    center: {
+                        lat: 40.645037,
+                        lng: -73.880224
+                    },
+                });
+
+                var image = 'images/maps-and-flags.png';
+                var beachMarker = new google.maps.Marker({
+                    position: {
+                        lat: 40.645037,
+                        lng: -73.880224
+                    },
+                    map: map,
+                    icon: image
+                });
+            }
+        </script>
+        <!-- google map js -->
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+        <!-- end google map js -->
+</body>
+
+</html>
